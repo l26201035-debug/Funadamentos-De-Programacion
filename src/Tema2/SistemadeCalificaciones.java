@@ -1,3 +1,5 @@
+package Tema2;
+
 import java.util.Scanner;
 public class SistemadeCalificaciones {
     public static void main(String[] args) {
@@ -16,7 +18,7 @@ public class SistemadeCalificaciones {
         System.out.println("Su primera calificacion fue de " + primeracalificacion);
         System.out.println("Su segunda calificacion fue de " + segundacalificacion);
         System.out.println("Su tercera calificacion fue de " + terceracalificacion);
-        System.out.println("Su promedio total es de " +  promedio);
+        System.out.println("Su Tema2.promedio total es de " +  promedio);
         if (promedio >= MINIMO_APROBATORIO) {
             System.out.println("FELICIDADES ALUMNO");
             System.out.println("Usted aprobo");

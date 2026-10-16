@@ -6,7 +6,6 @@ public class Gasolineria {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Acumuladores y contadores
         double totalLitros = 0;
         double importeTotalSinDescuento = 0;
         double totalCobrado = 0;
